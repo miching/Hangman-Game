@@ -76,6 +76,7 @@ public class Hangman implements ActionListener
 			
 			Drawing game = new Drawing();
 			game.podiumDrawing();
+			game.legDraw();
 			chancesLeft = -1;
 			
 		}
