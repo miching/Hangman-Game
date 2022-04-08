@@ -21,8 +21,9 @@ public class Hangman implements ActionListener
 
 	/**
 	 * @param args
+	 * @throws InterruptedException 
 	 */
-	public static void main(String[] args)
+	public static void main(String[] args) throws InterruptedException
 	{
 		
 
@@ -67,7 +68,7 @@ public class Hangman implements ActionListener
 		
 		frame.setVisible(true);
 		
-		
+		Thread.sleep(3000);
 		
 		int chancesLeft = 7;
 		
@@ -78,7 +79,13 @@ public class Hangman implements ActionListener
 			game.podiumDrawing();
 			game.legDraw();
 			chancesLeft = -1;
-			
+			System.out.println("Word: " + t);
+			if (t.contentEquals("s"))
+			{
+				
+				System.out.println("Woprks");
+				
+			}
 		}
 		
 		

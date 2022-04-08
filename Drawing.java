@@ -80,7 +80,7 @@ public class Drawing
 		System.out.println("     ________");
 		System.out.println("     |      |");
 		System.out.println("     |      O");
-		System.out.println("     |     /|\");
+		System.out.println("     |     /|\\");
 		System.out.println("     |      ");
 		System.out.println("     |      ");
 		System.out.println("     |      ");
@@ -96,7 +96,7 @@ public class Drawing
 		System.out.println("     ________");
 		System.out.println("     |      |");
 		System.out.println("     |      O");
-		System.out.println("     |     /|\");
+		System.out.println("     |     /|\\");
 		System.out.println("     |      |");
 		System.out.println("     |      ");
 		System.out.println("     |      ");
